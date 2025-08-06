@@ -275,7 +275,7 @@ fun PlayerSheet(
                     onGoToArtistClick = onGoToArtistClick,
                     onLyricsSheetExpandedChange = onLyricsSheetExpandedChange,
                     onLyricsClick = onLyricsClick,
-                    lyricsTextStyle = MaterialTheme.typography.headlineMedium
+                    lyricsTextStyle = MaterialTheme.typography.displaySmall
                         .copy(
                             fontSize = settings.lyricsFontSize,
                             lineHeight = settings.lyricsLineHeight,
